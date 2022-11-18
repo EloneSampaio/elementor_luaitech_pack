@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap');
+
+
+
+/* For mobile phones: */
+.unlock-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.playBtn  {
+    padding: 1rem 1rem;
+/*     background-image: linear-gradient(to right,#9f7629, #fdcb35);
+ */    
+    background-color: #001A1A;
+
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    animation: shadowPulse 1s infinite linear;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #f9ffff;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+a.playBtn:hover {
+   color:#fff;
+}
+
+@keyframes ringPulse {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    80%, 100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0 0 8px 6px transparent,
+                    0 0 0 0 transparent,
+                    0 0 0 0 transparent;
+    }
+
+    10% {
+        box-shadow: 0 0 8px 6px #9f7629,
+                    0 0 12px 10px transparent,
+                    0 0 12px 5px #fdcb35;
+    }
+
+    80%, 100% {
+        box-shadow: 0 0 8px 6px transparent,
+                    0 0 0 40px transparent,
+                    0 0 0 40px transparent;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
+  .ol-unlock-btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.playBtn {
+    padding: 2rem 1rem;
+    background-image: linear-gradient(to right,#9f7629, #fdcb35);
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    animation: shadowPulse 1s infinite linear;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:#001A1A;
+    font-size: 18px;
+    font-weight: 700;
+}
+a.playBtn:hover {
+   color:#fff;
+}
+
+
+@keyframes ringPulse {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    80%, 100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0 0 8px 6px transparent,
+                    0 0 0 0 transparent,
+                    0 0 0 0 transparent;
+    }
+
+    10% {
+        box-shadow: 0 0 8px 6px #9f7629,
+                    0 0 12px 10px transparent,
+                    0 0 12px 5px #fdcb35;
+    }
+
+    80%, 100% {
+        box-shadow: 0 0 8px 6px transparent,
+                    0 0 0 40px transparent,
+                    0 0 0 40px transparent;
+    }
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+ .ol-unlock-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.playBtn {
+    padding: 2rem 5rem;
+    background-image: linear-gradient(to right,#9f7629, #fdcb35);
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    animation: shadowPulse 1s infinite linear;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #001A1A;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform:uppercase;
+}
+a.playBtn:hover {
+   color:#fff;
+}
+
+
+@keyframes ringPulse {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    80%, 100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0 0 8px 6px transparent,
+                    0 0 0 0 transparent,
+                    0 0 0 0 transparent;
+    }
+
+    10% {
+        box-shadow: 0 0 8px 6px #9f7629,
+                    0 0 12px 10px transparent,
+                    0 0 12px 5px #fdcb35;
+    }
+
+    80%, 100% {
+        box-shadow: 0 0 8px 6px transparent,
+                    0 0 0 40px transparent,
+                    0 0 0 40px transparent;
+    }
+}
+}
