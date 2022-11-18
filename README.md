@@ -2,4 +2,4 @@
 
 Elementor plugins with all widgets package.
 
-Developed by Luaitech/Elone
+Developed by Luaitech
